@@ -16,6 +16,10 @@
 		542480CE2D11D04500B4CC98 /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542480CD2D11D04500B4CC98 /* TestAppTests.swift */; };
 		542480D82D11D04500B4CC98 /* TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542480D72D11D04500B4CC98 /* TestAppUITests.swift */; };
 		542480DA2D11D04500B4CC98 /* TestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542480D92D11D04500B4CC98 /* TestAppUITestsLaunchTests.swift */; };
+		542480EA2D11D9E800B4CC98 /* CarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542480E92D11D9E800B4CC98 /* CarouselCell.xib */; };
+		542480EB2D11D9E800B4CC98 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542480E82D11D9E800B4CC98 /* CarouselCell.swift */; };
+		542480EE2D12A1F100B4CC98 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542480ED2D12A1F100B4CC98 /* TableViewCell.xib */; };
+		542480EF2D12A1F100B4CC98 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542480EC2D12A1F100B4CC98 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		542480D32D11D04500B4CC98 /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542480D72D11D04500B4CC98 /* TestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITests.swift; sourceTree = "<group>"; };
 		542480D92D11D04500B4CC98 /* TestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		542480E82D11D9E800B4CC98 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		542480E92D11D9E800B4CC98 /* CarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCell.xib; sourceTree = "<group>"; };
+		542480EC2D12A1F100B4CC98 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		542480ED2D12A1F100B4CC98 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 				542480BF2D11D04500B4CC98 /* Assets.xcassets */,
 				542480C12D11D04500B4CC98 /* LaunchScreen.storyboard */,
 				542480C42D11D04500B4CC98 /* Info.plist */,
+				543971A82D1311AC00DD18AE /* Cells */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -125,6 +134,17 @@
 				542480D92D11D04500B4CC98 /* TestAppUITestsLaunchTests.swift */,
 			);
 			path = TestAppUITests;
+			sourceTree = "<group>";
+		};
+		543971A82D1311AC00DD18AE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				542480E82D11D9E800B4CC98 /* CarouselCell.swift */,
+				542480E92D11D9E800B4CC98 /* CarouselCell.xib */,
+				542480EC2D12A1F100B4CC98 /* TableViewCell.swift */,
+				542480ED2D12A1F100B4CC98 /* TableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				542480C02D11D04500B4CC98 /* Assets.xcassets in Resources */,
+				542480EE2D12A1F100B4CC98 /* TableViewCell.xib in Resources */,
 				542480C32D11D04500B4CC98 /* Base in Resources */,
 				542480BE2D11D04400B4CC98 /* Base in Resources */,
+				542480EA2D11D9E800B4CC98 /* CarouselCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542480EF2D12A1F100B4CC98 /* TableViewCell.swift in Sources */,
 				542480BB2D11D04400B4CC98 /* ViewController.swift in Sources */,
 				542480B72D11D04400B4CC98 /* AppDelegate.swift in Sources */,
 				542480B92D11D04400B4CC98 /* SceneDelegate.swift in Sources */,
+				542480EB2D11D9E800B4CC98 /* CarouselCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
